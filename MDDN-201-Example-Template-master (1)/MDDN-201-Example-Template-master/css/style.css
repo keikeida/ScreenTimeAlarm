@@ -13,12 +13,12 @@ section{
 	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-bottom: 20px;
 }
 
 header{
-	background-color: darkOrange;
+	background-color: darkred;
 	color: white; /* more readable on an orange background */
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -43,6 +43,11 @@ nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
+spacing {
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+}
 
 
 /* Simple grid */
@@ -77,4 +82,16 @@ nav a:hover{
 
 .padded{
 	padding: 20px; /* I add this to cells to add a little padding*/
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
