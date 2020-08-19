@@ -22,11 +22,19 @@ header{
 	color: white; /* more readable on an orange background */
 	padding-top: 30px;
 	padding-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-p1{
+headertwo{
+	background-color: darkred;
+	color: white; /* more readable on an orange background */
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+p{
 	font-size: 30px;
-	float: center;
+	text-align: center;
 	
 }
 
@@ -43,6 +51,8 @@ nav a, nav h3{
 	margin-left: 1em;
 	margin-right: 1em;
 	text-decoration: none;
+	text-align: center
+	
 }
 
 nav a:hover{
@@ -73,12 +83,12 @@ spacing {
 
 .g-30{
 	width: 30%;
-	float: left;
+	float: center;
 }
 
 .g-70{
 	width: 70%;
-	float: left;
+	float: center;
 }
 
 .show{
@@ -94,5 +104,5 @@ spacing {
   display: block;
   margin-left: auto ;
   margin-right: auto;
-  width: 40%;
+  width: 50%;
 }
