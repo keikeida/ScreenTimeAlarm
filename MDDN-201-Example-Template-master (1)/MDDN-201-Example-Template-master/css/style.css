@@ -20,13 +20,14 @@ section{
 header{
 	background-color: darkred;
 	color: white; /* more readable on an orange background */
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
-p{
-	font-size: 70px;
-	width: 100%
+p1{
+	font-size: 30px;
+	float: center;
+	
 }
 
 nav{
@@ -91,12 +92,7 @@ spacing {
 
 .center {
   display: block;
-  margin-left: auto;
+  margin-left: auto ;
   margin-right: auto;
-  width: 50%;
-}.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  width: 40%;
 }
